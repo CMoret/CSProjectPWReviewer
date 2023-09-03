@@ -1,11 +1,14 @@
-#PasswordReviewer
-#This program allows you to enter a username and password, prints your username is clear/plain text, prints password out in astersik, gives you the length of your password and more security measures if your password is too short
+# PasswordReviewer
+# This program allows you to enter a username and password. It prints your username in plain text,
+# masks the password with asterisks, displays the password's length, and provides security measures
+# if your password is too short.
 
-#Enter username and password
+
+#Input username and password
 username= input('\nPlease enter your username: ' )
 password= input('Please enter your password: ')
 
-#determins password length and converts password into asterisk
+#Determine password length and converts password into asterisks
 pw_length= len(password)
 secret_pw= '*'* pw_length
 

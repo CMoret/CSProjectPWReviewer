@@ -1,6 +1,6 @@
 #ProjectPWReviewer
 
-Read Me in progress...
+READ ME UNDER CONSTRUCTION
 
 This program ‘Password Reviewer’ allows you to enter your password in plaintext but returns or prints the password in asterisk form.
 
